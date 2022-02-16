@@ -15,6 +15,7 @@ namespace ConceptsPOO
 
         public Date(int year, int month, int day)
         {
+            //CAMPOS
             _year = year;
             _month = CheckMonth(month);
             _day = CheckDay(year, month, day);
