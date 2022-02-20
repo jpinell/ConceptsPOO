@@ -20,9 +20,9 @@ namespace ConceptsPOO
         {
             return 
                 $"{base.ToString()}\n" +
-                $"Commission Percentaje: {$"{CommissionPercentaje:P2}", 15}\n" +
-                $"Sales................: {$"{Sales:C2}", 15}\n" +
-                $"Salario..............: {$"{GetValueToPay():C2}", 15}";
+                $"Commission Percentaje: {$"{CommissionPercentaje:P2}", 18}\n" +
+                $"Sales................: {$"{Sales:C2}", 18}\n" +
+                $"Salario..............: {$"{GetValueToPay():C2}", 18}";
         }
     }
 }

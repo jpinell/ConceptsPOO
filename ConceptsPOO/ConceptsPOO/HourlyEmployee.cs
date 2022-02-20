@@ -14,9 +14,9 @@
         {
             return
                 $"{base.ToString()}\n" +
-                $"Horas............: {$"{Hours:N2}",15}\n" +
-                $"Valor por hora...: {$"{HourValue:C2}",15}\n" +
-                $"Salario..........: {$"{GetValueToPay():C2}",15}";
+                $"Horas............: {$"{Hours:N2}",18}\n" +
+                $"Valor por hora...: {$"{HourValue:C2}",18}\n" +
+                $"Salario..........: {$"{GetValueToPay():C2}",18}";
         }
     }
 }
